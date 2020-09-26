@@ -29,6 +29,9 @@ textarea:focus, input:focus {
 input:-webkit-autofill {
   background: transparent; }
 
+hr.line {
+  border: none; height: 2px; background-color: rgb(151,151,151); }
+
 .navbar-expand-md .navbar-nav .nav-item a {
   padding: 8px 12px; }
 

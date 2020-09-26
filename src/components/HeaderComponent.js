@@ -25,9 +25,8 @@ class Header extends Component {
         return (
             <Navbar dark sticky='top' expand="md">
                 <div className="container-fluid">
-                    <NavbarBrand className="mr-auto" href="/">
-                        <i className="fa fa-cutlery" aria-hidden="true"></i>
-                        <span>M3 Eatery</span>
+                    <NavbarBrand className="mr-auto customized" href="/">
+                        <i className="fa fa-cutlery" aria-hidden="true" />{' '}<span>M3 Eatery</span>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggleNav} />
                     <Collapse isOpen={this.state.isNavOpen} navbar>
