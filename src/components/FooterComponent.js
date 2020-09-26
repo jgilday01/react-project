@@ -6,7 +6,7 @@ class Footer extends Component {
     render() {
         return (
             <footer className="py-4">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col-12 text-center text-md-left offset-md-1 col-md-8">
                             <div>

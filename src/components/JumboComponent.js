@@ -1,5 +1,5 @@
 
-import React, { Component } from 'react';
+import React from 'react';
 import { Jumbotron } from 'reactstrap';
 
 const images = [
@@ -18,25 +18,26 @@ const listItems = images.map((image) =>
 );
 
 
-class Jumbo extends Component {
+function Jumbo() {
 
-    render() {
-        return (
+    return (
 
-            <Jumbotron className="p-0">
-                <div className="container-fluid p-0">
-                    <div className="row">
-                        <div className="col-12">
-                            <div id="page-top">
-                                <ul className="products m-0">{listItems}</ul>
-                            </div>
+        <Jumbotron className="p-0">
+            <div className="container-fluid p-0">
+                <div className="row">
+                    <div className="col-12">
+                        <div id="page-top">
+                            <ul className="products m-0">{listItems}</ul>
+                        </div>
+                        <div className="d-block d-md-none text-center text-white my-dark-bg p-3">
+                            <h1>Muffins, Meatballs & Mules</h1>
                         </div>
                     </div>
                 </div>
-            </Jumbotron>
+            </div>
+        </Jumbotron>
 
-        );
-    }
+    );
 }
 
 export default Jumbo;

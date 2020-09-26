@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Jumbo from "./JumboComponent";
+import GeneralInfo from "./GeneralInfoComponent";
+import Events from './EventsComponent';
 
 class Home extends Component {
 
@@ -35,6 +37,9 @@ class Home extends Component {
                             <hr className="line" />
                         </div>
                     </div>
+
+                    <GeneralInfo />
+                    <Events />
                 </div>
             </React.Fragment>
         );
