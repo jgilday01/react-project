@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Reservation from './ReserveComponent';
+
 
 function GeneralInfo() {
     return (
@@ -30,7 +32,7 @@ function GeneralInfo() {
                             Masks can be removed at the table, but should be worn all other times.
                         </div>
                         <div className="mt-auto">
-                            <a href="#reserveModal" className="btn btn-orange btn-large mt-4" data-toggle="modal">Reserve a Table</a>
+                            <Reservation />
                         </div>
                     </div>
                 </div>
