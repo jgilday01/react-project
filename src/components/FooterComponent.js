@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 
 class Footer extends Component {
-
-
     render() {
         return (
             <footer className="py-4">
@@ -29,7 +27,6 @@ class Footer extends Component {
             </footer>
         );
     }
-
 }
 
 export default Footer;

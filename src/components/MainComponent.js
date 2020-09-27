@@ -6,9 +6,7 @@ import Home from './HomeComponent';
 import Menu from "./MenuComponent";
 
 class Main extends Component {
-
     render() {
-
         return (
             <div>
                 <Header />
@@ -20,7 +18,6 @@ class Main extends Component {
                 <Footer />
             </div>
         );
-
     }
 }
 

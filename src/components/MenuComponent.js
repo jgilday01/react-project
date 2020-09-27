@@ -6,7 +6,6 @@ class Menu extends Component {
             <h1>Placeholder</h1>
         );
     }
-
 }
 
 export default Menu;

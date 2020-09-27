@@ -1,9 +1,7 @@
-
 import React, { Component } from 'react';
 import { Jumbotron } from 'reactstrap';
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
-
 
 const mapStateToProps = state => {
     return {
@@ -23,7 +21,6 @@ class Jumbo extends Component {
         );
 
         return (
-
             <Jumbotron className="p-0">
                 <div className="container-fluid p-0">
                     <div className="row">
@@ -38,7 +35,6 @@ class Jumbo extends Component {
                     </div>
                 </div>
             </Jumbotron>
-
         );
     }
 }

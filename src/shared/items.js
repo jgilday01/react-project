@@ -1,4 +1,4 @@
-export const EVENTS = [
+export const ITEMS = [
     {
         src: 'assets/images/muffin.jpg',
         altText: 'Muffin photo by david-todd-mccarty',

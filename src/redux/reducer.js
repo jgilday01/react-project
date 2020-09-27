@@ -1,9 +1,9 @@
 import { BANNERS } from '../shared/banners'
-import { EVENTS } from '../shared/events'
+import { ITEMS } from '../shared/items'
 
 export const initialState = {
     banners: BANNERS,
-    events:  EVENTS
+    items:  ITEMS
 };
 
 export const Reducer = (state = initialState, action) => {

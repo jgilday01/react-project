@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Jumbo from "./JumboComponent";
 import GeneralInfo from "./GeneralInfoComponent";
-import Events from './EventsComponent';
+import SpecialEvents from './EventsComponent';
 
 class Home extends Component {
 
@@ -33,13 +33,11 @@ class Home extends Component {
                     </div>
 
                     <div className="row">
-                        <div className="col-12 offset-sm-1 col-sm-10">
-                            <hr className="line" />
-                        </div>
+                        <div className="col-12 offset-sm-1 col-sm-10"><hr className="line" /></div>
                     </div>
 
                     <GeneralInfo />
-                    <Events />
+                    <SpecialEvents />
                 </div>
             </React.Fragment>
         );

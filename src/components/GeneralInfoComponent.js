@@ -1,8 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function GeneralInfo() {
     return (
-
         <div className="row my-4">
             <div className="col-12 offset-sm-1 col-sm-10 col-md-5 py-3">
                 <div className="card h-100">
@@ -14,11 +14,12 @@ function GeneralInfo() {
                             When you come inside a mask is required and social distancing must be observered.
                         </div>
                         <div className="mt-auto">
-                            <a href="menu.html" className="btn btn-orange btn-large mt-4">View our Menu</a>
+                            <Link to="/menu" className="btn btn-orange btn-large mt-4">View our Menu</Link>
                         </div>
                     </div>
                 </div>
             </div>
+            
             <div className="col-12 offset-sm-1 col-sm-10 offset-md-0 col-md-5 py-3">
                 <div className="card h-100">
                     <div className="card-body d-flex flex-column covid-box">
@@ -36,7 +37,6 @@ function GeneralInfo() {
             </div>
         </div>
     );
-
 }
 
 export default GeneralInfo;
