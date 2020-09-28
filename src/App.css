@@ -6,14 +6,12 @@ html, body {
 body {
   max-width: 2000px;
   margin: 0 auto;
-  border: 3px solid #19232d;}
+  border: 3px solid #19232d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;}
 
 h1, h2, h3, h4, h5, .navbar-brand {
   font-family: 'Sriracha', cursive; }
-
-div {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px; }
 
 input, textarea {
   margin: 10px auto;
@@ -112,22 +110,27 @@ footer, .navbar, .covid-box, .my-dark-bg {
   border-radius: 10px 10px 5px 5px;
   background: rgba(33, 33, 33, 0.55); }
 
-#accordion .card-header {
+
+/*replaced #accordion with .menu-item */
+
+.menu-head.card-header {
   background: #ff7800; }
 
-#accordion button {
+.menu-head button {
   width: 100%;
+  background: #ff7800; 
+  border: 0;
   color: #ebebeb;
   line-height: 1;
-  padding: 10px 5px;
+  padding: 10px;
   box-shadow: none;
   text-decoration: none; }
 
-#accordion button:not(.collapsed) {
+.menu-head button:not(.collapsed) {
   box-shadow: none;
   color: #19232d; }
 
-#accordion .card-body {
+.menu-item.card-body {
   background-color: #ebebeb; }
 
 .menu-image {
