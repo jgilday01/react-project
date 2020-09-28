@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Modal, ModalHeader, ModalBody, Label, InputGroup, InputGroupText, InputGroupAddon } from 'reactstrap';
+import { Button, Modal, ModalHeader, ModalBody, InputGroup, InputGroupText, InputGroupAddon } from 'reactstrap';
 import { Control, LocalForm, Errors } from 'react-redux-form';
 
 const required = val => val && val.length;
@@ -35,7 +35,7 @@ class Reservation extends Component {
 
     render() {
         return (
-            <>
+            <React.Fragment>
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                     <ModalHeader toggle={this.toggleModal} className="modal-title header-orange">Reserve a Table</ModalHeader>
                     <ModalBody>
@@ -117,7 +117,7 @@ class Reservation extends Component {
                     </ModalBody>
                 </Modal>
                 <button onClick={this.toggleModal} className="btn btn-orange btn-large mt-4">Reserve a Table</button>
-            </>
+            </React.Fragment>
         )
     }
 }

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import FoodList from './FoodListComponent'
 
 class Menu extends Component {
     render() {
         return (
-            <h1>Placeholder</h1>
+            <FoodList />
         );
     }
 }
