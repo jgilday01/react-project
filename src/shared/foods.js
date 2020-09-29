@@ -98,12 +98,12 @@ export const FOODS = [
             {
                 id: 2,
                 head: "House Chili",
-                desc: "We offer a few version of chili;<br>turkey and veggie options available"
+                desc: "We offer both a turkey and a veggie chili"
             },
             {
                 id: 3,
                 head: "House Salad",
-                desc: "Greens, tomatoes, red onion, mixed&nbsp;peppers, bacon, cranberries, feta cheese"
+                desc: "Greens, tomatoes, red onion, peppers, bacon, cranberries, feta cheese"
             }
         ]
     }
