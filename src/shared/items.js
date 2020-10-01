@@ -2,25 +2,25 @@ export const ITEMS = [
     {
         src: 'assets/images/muffin.jpg',
         altText: 'Muffin photo by david-todd-mccarty',
-        captionHead: 'Tasty Tuesday',
+        header: 'Tasty Tuesday',
         caption: 'Reduced Muffin Prices'
     },
     {
         src: 'assets/images/acoustic.jpg',
         altText: 'Acoustic guitar by rachmaddian-shotz',
-        captionHead: 'Wednesday Nights',
+        header: 'Wednesday Nights',
         caption: 'LIVE Acoustic Music'
     },
     {
         src: 'assets/images/mule-top.jpg',
         altText: 'Mule top by alex-plesovskich',
-        captionHead: 'Thirsty Thursday',
+        header: 'Thirsty Thursday',
         caption: 'Reduced Mule Prices'
     },
     {
         src: 'assets/images/dice.jpg',
         altText: 'Dice by brett-jordan',
-        captionHead: 'Funtime Friday',
+        header: 'Funtime Friday',
         caption: '*** Game Night ***'
     }
 ];

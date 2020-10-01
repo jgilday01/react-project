@@ -46,7 +46,7 @@ class FoodList extends Component {
 
 
         return (
-            <div className="container-fluid main-page">
+            <div className="container-fluid">
                 <div className="row mb-5">
                     <div className="col-12 offset-sm-1 col-sm-10 offset-xl-2 col-xl-8">
                         <div>{listItems}</div>

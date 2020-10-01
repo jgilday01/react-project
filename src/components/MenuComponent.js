@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import FoodList from './FoodListComponent'
+import SocialSharing from './SocialComponent';
 
 class Menu extends Component {
     render() {
@@ -19,6 +20,23 @@ class Menu extends Component {
                 </div>
 
                 <FoodList />
+
+                <SocialSharing />
+
+                <div className="row d-none d-sm-block">
+                    <div className="col-12 offset-sm-1 col-sm-10 offset-xl-2 col-xl-8">
+                        <div className="my-5">
+                            <figure className="figure">
+                                <img src={"assets/images/fresh.jpg"} className="figure-img img-fluid rounded"
+                                    alt={"chop fresh veggie by alyson-mcphee"} />
+                                <div className="overlay-text">
+                                    <h5>Our dishes are prepared to order with only the freshest ingredients.</h5>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
             </React.Fragment>
         );
     }
