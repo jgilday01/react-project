@@ -4,6 +4,7 @@ import Header from "./HeaderComponent";
 import Footer from "./FooterComponent";
 import Home from './HomeComponent';
 import Menu from "./MenuComponent";
+import Contact from "./ContactComponent";
 
 class Main extends Component {
     render() {
@@ -13,6 +14,7 @@ class Main extends Component {
                 <Switch>
                     <Route path="/home" component={Home} />
                     <Route path="/menu" component={Menu} />
+                    <Route path="/contact" render={() => <Contact resetFeedbackForm={this.props.resetFeedbackForm} />} />
                     <Redirect to='/home' />
                 </Switch>
                 <Footer />
