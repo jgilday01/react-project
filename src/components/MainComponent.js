@@ -5,6 +5,12 @@ import Footer from "./FooterComponent";
 import Home from './HomeComponent';
 import Menu from "./MenuComponent";
 import Contact from "./ContactComponent";
+import { connect } from 'react-redux';
+import { actions } from 'react-redux-form';
+
+const mapDispatchToProps = {
+    resetFeedbackForm: () => (actions.reset('feedbackForm')),
+};
 
 class Main extends Component {
     render() {
@@ -23,4 +29,5 @@ class Main extends Component {
     }
 }
 
-export default withRouter(Main);
+export default withRouter(connect(null, mapDispatchToProps)(Main));
+//export default withRouter(Main);
