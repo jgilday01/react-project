@@ -155,7 +155,7 @@ class Contact extends Component {
 
                             <Row>
                                 <Col className="col-12">
-                                    <Control.textarea model=".feedback" id="feedback" name="feedback" rows="12" />
+                                    <Control.textarea model=".feedback" id="feedback" name="feedback" rows="5" />
                                 </Col>
                             </Row>
 

@@ -111,7 +111,7 @@ class Reservation extends Component {
                                 />
                             </div>
 
-                            <Button type="submit" value="submit" color="primary">Submit</Button>
+                            <Button  className="btn-orange" type="submit" value="submit">Submit</Button>
                         </LocalForm>
 
                     </ModalBody>
