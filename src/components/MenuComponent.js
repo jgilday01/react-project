@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FoodList from './FoodListComponent'
 import SocialSharing from './SocialComponent';
+import { FadeTransform } from 'react-animation-components';
 
 class Menu extends Component {
     render() {
@@ -19,7 +20,13 @@ class Menu extends Component {
                     </div>
                 </div>
 
-                <FoodList />
+                <FadeTransform
+                    in
+                    transformProps={{
+                        exitTransform: 'scale(0.5) translateY(50%)'
+                    }}>
+                    <FoodList />
+                </FadeTransform>
 
                 <SocialSharing />
 

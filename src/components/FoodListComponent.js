@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { UncontrolledCollapse, Card, CardHeader, CardBody } from 'reactstrap';
-
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 
@@ -19,7 +18,6 @@ class FoodList extends Component {
                     <h5 className="mb-0">
                         <button id={"toggler" + food.id} className="btn btn-link">
                             <div className="pull-left">{food.section}</div>
-                            <i className="pull-right fa fa-caret-up" aria-hidden="true"></i>
                         </button>
                     </h5>
                 </CardHeader>

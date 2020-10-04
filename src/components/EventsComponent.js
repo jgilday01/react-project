@@ -1,6 +1,4 @@
 import React from 'react';
-//import CardDetail from "./CardDetailComponent";
-
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { UncontrolledCarousel } from "reactstrap";
