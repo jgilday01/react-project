@@ -106,6 +106,5 @@ export const FOODS = [
                 desc: "Greens, tomatoes, red onion, peppers, bacon, cranberries, feta cheese"
             }
         ]
-    }
-    
+    }    
 ];
