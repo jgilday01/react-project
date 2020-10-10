@@ -2,7 +2,7 @@ export const FOODS = [
     {
         id: 1,
         section: "Muffins",
-        src: "/assets/images/muffins.jpg",
+        src: "assets/images/muffins.jpg",
         alt: "muffins by roberto-martinez",
         items: [
             {
@@ -30,7 +30,7 @@ export const FOODS = [
     {
         id: 2,
         section: "Meatballs",
-        src: "./assets/images/meatballs.jpg",
+        src: "assets/images/meatballs.jpg",
         alt: "meatball by jean-marie-arnaud",
         items: [
             {
@@ -64,7 +64,7 @@ export const FOODS = [
     {
         id: 3,
         section: "Mules",
-        src: "../assets/images/mules.jpg",
+        src: "assets/images/mules.jpg",
         alt: "mules by miguel-maldonado",
         items: [
             {
