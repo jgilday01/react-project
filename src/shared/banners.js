@@ -7,7 +7,7 @@ export const BANNERS = [
     },
     {
         id: 2,
-        src: '/assets/images/meatballs.jpg',
+        src: './assets/images/meatballs.jpg',
         alt: 'meatball by jason-leung"',
         txt: 'Meatballs'
     },
