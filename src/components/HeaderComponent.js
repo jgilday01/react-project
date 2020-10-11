@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem } from 'reactstrap';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 class Header extends Component {
 
@@ -25,7 +25,7 @@ class Header extends Component {
         return (
             <Navbar dark sticky='top' expand="md">
                 <div className="container-fluid">
-                    <NavbarBrand className="mr-auto customized" href="/home">
+                    <NavbarBrand className="mr-auto customized" as={Link} href="/home">
                         <i className="fa fa-cutlery" aria-hidden="true" />{' '}<span>M3 Eatery</span>
                     </NavbarBrand>
                     <NavbarToggler onClick={this.toggleNav} />
