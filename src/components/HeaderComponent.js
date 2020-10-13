@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem } from 'reactstrap';
+import { Nav, Navbar, NavbarToggler, Collapse, NavItem } from 'reactstrap';
 import { NavLink, Link } from 'react-router-dom';
 
 class Header extends Component {
@@ -25,9 +25,9 @@ class Header extends Component {
         return (
             <Navbar dark sticky='top' expand="md">
                 <div className="container-fluid">
-                    <NavbarBrand className="mr-auto customized" as={Link} href="/home">
+                    <Link className="mr-auto customized navbar-brand" to="/home">
                         <i className="fa fa-cutlery" aria-hidden="true" />{' '}<span>M3 Eatery</span>
-                    </NavbarBrand>
+                    </Link>
                     <NavbarToggler onClick={this.toggleNav} />
                     <Collapse isOpen={this.state.isNavOpen} navbar>
                         <Nav navbar className="ml-auto">
