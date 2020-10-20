@@ -2,6 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { UncontrolledCarousel } from "reactstrap";
+import { Fade, Stagger } from 'react-animation-components';
 
 const mapStateToProps = state => {
     return {
@@ -14,7 +15,7 @@ function SpecialEvents(props) {
     return (
         <div className="row my-4">
             <div className="col-12 offset-sm-1 col-sm-10 col-lg-5">
-                <div className="my-3">                    
+                <div className="my-3">
                     <UncontrolledCarousel items={props.items} />
                 </div>
             </div>
@@ -26,10 +27,12 @@ function SpecialEvents(props) {
                         </div>
                         <div className="card-body events-bg">
                             <div className="text-center home-text-lrg">
-                                <p>Tasty Muffins at a reduced price on Tuesday&nbsp;morning.</p>
-                                <p>Exciting LIVE acoustic music on Wednesday&nbsp;nights.</p>
-                                <p>Refreshing&nbsp;Mules reduced prices on Thursday&nbsp;nights.</p>
-                                <p>Game Night on Friday nights.<br />It's fun for the whole family!</p>
+                                <Stagger in>
+                                    <Fade><p>Tasty Muffins at a reduced price on Tuesday&nbsp;morning.</p></Fade>
+                                    <Fade><p>Exciting LIVE acoustic music on Wednesday&nbsp;nights.</p></Fade>
+                                    <Fade><p>Refreshing&nbsp;Mules reduced prices on Thursday&nbsp;nights.</p></Fade>
+                                    <Fade><p>Game Night on Friday nights.<br />It's fun for the whole family!</p></Fade>
+                                </Stagger>
                             </div>
                         </div>
                     </div>
